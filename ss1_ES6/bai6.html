@@ -6,11 +6,9 @@
 </head>
 <body>
 <script>
-    function displayAttributes(obj) {
-        let firstName = obj.firstName || "Quân";
-        let degree = obj.degree || "NA";
-        console.log("firstName: " + firstName);
-        console.log("degree: " + degree);
+    function displayAttributes({ firstName = "Quân", degree = "NA" }) {
+        console.log("firstName:", firstName);
+        console.log("degree:", degree);
     }
 
     const sv1 = {
