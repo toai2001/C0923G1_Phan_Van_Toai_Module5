@@ -53,7 +53,7 @@ export default class ToDo extends Component{
                         <th scope="col">STT</th>
                         <th scope="col">Công việc</th>
                     </tr>
-                    </thead>
+                        </thead>
                     <tbody>
                     {this.state.listTask.map((value, index) => (
                         <tr key={value.id}>

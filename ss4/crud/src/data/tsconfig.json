@@ -1,0 +1,16 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Harry Potter",
+      "quantity": 5,
+      "dateOfManufacture": "22/02/1990"
+    },
+    {
+      "id": 2,
+      "title": "Dế Mèn Phương Lưu Kí",
+      "quantity": 2  ,
+      "dateOfManufacture": "05/10/200"
+    }
+  ]
+}
