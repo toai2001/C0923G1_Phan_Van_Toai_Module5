@@ -5,6 +5,11 @@ export const getAllBook = async ()=>{
                 const res = await  axios.get("http://localhost:3001/books")
         return res.data;
     }catch (e) {
-        return "Khong co danh sach"
+        return "Không có danh sách  "
+    }
+}
+export const createBook=async () =>{
+    try {
+        await axios.post()
     }
 }
