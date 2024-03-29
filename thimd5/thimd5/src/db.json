@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "id": 2,
+      "maSach": "BO-9876",
+      "tenSach": "Hình Học",
+      "theLoai": "Toán Học",
+      "ngayNhapSach": "09/08/2023",
+      "soLuong": 1000
+    },
+    {
+      "maSach": "BO-9999",
+      "soLuong": "10000000",
+      "tenSach": "Ngữ Văn",
+      "ngayNhapSach": "12/3/2024",
+      "theLoai": "Giáo Dục",
+      "id": 3
+    },
+    {
+      "maSach": "BO-8888",
+      "soLuong": "10000",
+      "tenSach": "Toán Học",
+      "ngayNhapSach": "08/09/2015",
+      "theLoai": "Giáo Dục",
+      "id": 4
+    },
+    {
+      "maSach": "BO-1234",
+      "soLuong": "99",
+      "tenSach": "Đố Vui",
+      "ngayNhapSach": "09/3/2024",
+      "theLoai": "Giáo Dục",
+      "id": 5
+    },
+    {
+      "maSach": "B0-6666",
+      "soLuong": "1999",
+      "tenSach": "Anh ngữ",
+      "ngayNhapSach": "12/3/2024",
+      "theLoai": "Giáo Dục",
+      "id": 6
+    }
+  ]
+}
