@@ -1,0 +1,125 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "code": "BO-0001",
+      "title": "Cây cam ngọt của tôi",
+      "quantity": 5,
+      "date": "12/03/2024",
+      "category": {
+        "id": 3,
+        "name": "Truyện dài"
+      }
+    },
+    {
+      "id": 2,
+      "code": "BO-0002",
+      "title": "Hoàng tử bé",
+      "quantity": 10,
+      "date": "12/03/2024",
+      "category": {
+        "id": 1,
+        "name": "Tiểu thuyết"
+      }
+    },
+    {
+      "id": 3,
+      "code": "BO-0003",
+      "title": "Ngôi nhà kì quái",
+      "quantity": 11,
+      "date": "11/03/2024",
+      "category": {
+        "id": 5,
+        "name": "Kinh dị"
+      }
+    },
+    {
+      "id": 4,
+      "code": "BO-0004",
+      "title": "Cô dâu ma",
+      "quantity": 7,
+      "date": "10/03/2024",
+      "category": {
+        "id": 5,
+        "name": "Kinh dị"
+      }
+    },
+    {
+      "id": 5,
+      "code": "BO-0005",
+      "title": "aaaaa",
+      "quantity": 7,
+      "date": "08/03/2024",
+      "category": {
+        "id": 1,
+        "name": "Tiểu thuyết"
+      }
+    },
+    {
+      "code": "BO-0006",
+      "title": "a",
+      "quantity": "9",
+      "date": "12/03/2024",
+      "category": {
+        "id": 2,
+        "name": "Truyện ngắn"
+      },
+      "id": 7
+    },
+    {
+      "code": "BO-0007",
+      "title": "abc",
+      "quantity": "9",
+      "date": "12/03/2024",
+      "category": {
+        "id": 2,
+        "name": "Truyện ngắn"
+      },
+      "id": 6
+    },
+    {
+      "code": "BO-0008",
+      "title": "truyen dai",
+      "quantity": "9",
+      "date": "12/03/2024",
+      "category": {
+        "id": 2,
+        "name": "Truyện ngắn"
+      },
+      "id": 8
+    },
+    {
+      "code": "BO-0009",
+      "title": "aa",
+      "quantity": "2",
+      "date": "12/03/2024",
+      "category": {
+        "id": 2,
+        "name": "Truyện ngắn"
+      },
+      "id": 9
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Tiểu thuyết"
+    },
+    {
+      "id": 2,
+      "name": "Truyện ngắn"
+    },
+    {
+      "id": 3,
+      "name": "Truyện dài"
+    },
+    {
+      "id": 4,
+      "name": "Kinh dị"
+    },
+    {
+      "id": 5,
+      "name": "Trinh thám"
+    }
+  ]
+}
