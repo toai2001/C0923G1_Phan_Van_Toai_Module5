@@ -18,7 +18,7 @@ function Detail() {
     return (<div className="container mt-4">
         <h1>Chhi tiết sản phẩm: {productDetail.title}</h1>
         <h4>Mô Tả: {productDetail.description}</h4>
-        <h4>Giá: {productDetail.price}</h4>
+        <h4>Giá: {productDetail.price} VNĐ</h4>
         <br></br>
         <br></br>
         <Link className="btn btn-primary" to={"/"}>Trở Lại</Link>

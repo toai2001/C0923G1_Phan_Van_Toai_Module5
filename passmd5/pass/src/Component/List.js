@@ -52,7 +52,7 @@ function ProductList() {
                     <th scope="col">#</th>
                     <th scope="col">Tên Sản Phẩm</th>
                     <th scope="col">Mô Tả</th>
-                    <th scope="col">Giá</th>
+                    <th scope="col">Giá(VNĐ)</th>
                     <th scope="col" colSpan="2">Thao tác</th>
                 </tr>
                 </thead>
@@ -70,7 +70,7 @@ function ProductList() {
                             <Link className="btn btn-warning" to={`/detailProduct/${item.id}`}>CHi TIết Sản Phẩm</Link>
                         </td>
                         <td>
-                            <Button className="btn btn - danger" variant="primary"
+                            <Button className="btn btn - bg-danger-m" variant="primary"
                                     onClick={() => handleShow(item)}> Xóa </Button>
                         </td>
                     </tr>
