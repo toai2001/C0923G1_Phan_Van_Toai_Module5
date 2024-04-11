@@ -51,8 +51,8 @@ function ProductList() {
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Tên Sản Phẩm</th>
-                    <th scope="col">Mô Tả</th>
                     <th scope="col">Giá(VNĐ)</th>
+                    <th scope="col">Mô Tả</th>
                     <th scope="col" colSpan="2">Thao tác</th>
                 </tr>
                 </thead>
@@ -67,7 +67,7 @@ function ProductList() {
                             <Link className="btn btn-warning" to={`/editProduct/${item.id}`}>Chỉnh sửa</Link>
                         </td>
                         <td>
-                            <Link className="btn btn-warning" to={`/detailProduct/${item.id}`}>CHi TIết Sản Phẩm</Link>
+                            <Link className="btn btn-warning" to={`/detailProduct/${item.id}`}>Chi Tiết Sản Phẩm</Link>
                         </td>
                         <td>
                             <Button className="btn btn - bg-danger-m" variant="primary"

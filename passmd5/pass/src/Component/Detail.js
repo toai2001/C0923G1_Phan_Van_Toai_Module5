@@ -16,7 +16,7 @@ function Detail() {
         return null;
     }
     return (<div className="container mt-4">
-        <h1>Chhi tiết sản phẩm: {productDetail.title}</h1>
+        <h1>Chi Tiết Sản Phẩm: {productDetail.title}</h1>
         <h4>Mô Tả: {productDetail.description}</h4>
         <h4>Giá: {productDetail.price} VNĐ</h4>
         <br></br>

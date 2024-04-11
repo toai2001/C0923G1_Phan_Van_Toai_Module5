@@ -31,9 +31,8 @@ function EditProduct() {
     }
     return (
         <div className="container mt-4">
-            <h1>Chỉnh Sửa sách: {productEdited.title}</h1>
+            <h1>Chỉnh Sửa Sản Phẩm: {productEdited.title}</h1>
             <Formik
-                // validationSchema={validations}
                 initialValues={productEdited}
                 onSubmit={(values) =>
                     handleSubmit(values)}
